@@ -1,0 +1,1 @@
+{"experiment_name": "Minicist_V5_FASE_2_DENSENET_64x64_UNEQUART_15,25,35,45,55", "model_name": "densenet161", "batch_size": 512, "num_workers": 24, "stopping_patience": 50, "scheduler_patience": 10, "scheduler_factor": 0.75, "optimizer_lr": 0.005, "pretrained": false}
