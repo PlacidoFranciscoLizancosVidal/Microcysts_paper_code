@@ -2,7 +2,7 @@
 
 Source Code of the paper: 
 
-P. L. Vidal, J. de Moura, J. Novo, M. Ortega, "Robust fully-automatic multi-stage learning for the intuitive representation of MME accumulations in OCT images", The Visual Computer, 2024 (pending acceptance).
+```P. L. Vidal, J. de Moura, J. Novo, M. Ortega, "Robust fully-automatic multi-stage learning for the intuitive representation of MME accumulations in OCT images", The Visual Computer, 2024 (pending acceptance).```
 
 ## 1. Installation Guide
 
@@ -96,5 +96,5 @@ https://doi.org/10.5281/zenodo.14006681
 
 This code is provided as-is, intended for statistical purposes only and no private data or fees are required. If you use this code set in your work, please include the following reference:
 
-P. L. Vidal, J. de Moura, J. Novo, M. Ortega, "Robust fully-automatic multi-stage learning for the intuitive representation of MME accumulations in OCT images", The Visual Computer, 2024 (pending acceptance).
+```P. L. Vidal, J. de Moura, J. Novo, M. Ortega, "Robust fully-automatic multi-stage learning for the intuitive representation of MME accumulations in OCT images", The Visual Computer, 2024 (pending acceptance).```
 
