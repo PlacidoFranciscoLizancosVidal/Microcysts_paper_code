@@ -15,7 +15,9 @@ To replicate the experiments, you need the following dependencies and requiremen
 
  # Install the required Python libraries:
  
+```bash
 pip install -r requirements.txt
+```
 
 ## 2. Usage Guide
 
@@ -42,7 +44,7 @@ This project requires three sets of images:
 
 
 In ablation_main.py, the configuration of the dataset can be set as follows:
-```
+```python
 ##################################
 fold_info = 'FOLD_DATA_FN_L_6V2T1'
 p_images = './dataset/ORIGINALS/'
@@ -57,7 +59,7 @@ p_roi = './dataset/SUBMASKS_64/'
 
 Secondly, the training configuration can be set in the "c" variable as desired:
 
-```
+```python
 c = {
     'experiment_name' : 'Minicist_V5_FASE_2_DENSENET_64x64_ALLREPSFULL',
     'model_name' : 'densenet161',
@@ -92,7 +94,7 @@ https://doi.org/10.5281/zenodo.14006681
 
 ## 4. Usage Disclaimer and Citation
 
-This code is intended for statistical purposes only, and no private data or fees are required. If you use this code set in your work, please include the following reference:
+This code is provided as-is, intended for statistical purposes only and no private data or fees are required. If you use this code set in your work, please include the following reference:
 
 P. L. Vidal, J. de Moura, J. Novo, M. Ortega, "Robust fully-automatic multi-stage learning for the intuitive representation of MME accumulations in OCT images", The Visual Computer, 2024 (pending acceptance).
 
