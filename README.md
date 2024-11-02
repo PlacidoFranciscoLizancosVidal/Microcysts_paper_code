@@ -23,6 +23,13 @@ pip install -r requirements.txt
 
 Python file "ablation_main.py" corresponds to the training and validation of the models.
 
+The rest of files in the root are auxiliar modules:
+- dataset_library.py ``` Extracts uniformly distributed windows samples from the images. Implements the Dataset torch class for the loading of samples, returing a balanced dataset.  ```
+- util_loads.py ``` Auxiliar image processing functions for dataset_library (such as normalization of the images).  ```
+- util_models.py ``` Module to load the models from the Pytorch base. The de-facto hardcoded drop rate is 0.25. ```
+- util_storage.py ``` Simple class to load and store the json files. ```
+- util_training.py  ``` Implementation of the epoch training and the Early Stopping strategy. ```
+
 For training, validation and testing, the information of each fold must be set in a .json file as desired. In particular, this JSON must contain a list of dictionaries, each dictionary with three components: train, val and test. These correspond to training, validation and testing of each fold. Inside each entry of the dictionary, a list of paths, referencing the image that belongs to said set in that given fold of the crossvalidation. An example of this json file can be found in: "fold_data_example.json"
 
 This project requires three sets of images:
@@ -65,15 +72,15 @@ Finally, "window_ranges" allows to configure a list of window ranges to study in
 
 "ablation_main" will generate automatically a file ending with "_conf" to store the experiment name configuration for reproducibility, as well as folders with the results of training.
 
-In folder '''maps''' we include the code to generate maps with the given folders.
+In folder ```maps``` we include the code to generate maps with the given folders.
 
-There are two models included, '''model_30.rar''' and ''model_64.rar'''. The 64 model corresponds to the model trained to extract the coarse region of interest. The 30 model, the precise microcysts inside that region.
+There are two models included, ```model_30.rar``` and ```model_64.rar```. The 64 model corresponds to the model trained to extract the coarse region of interest. The 30 model, the precise microcysts inside that region.
 
 ### Map generation
 
 To generate the maps, execute:
 
-'''python generateMicrocystRepresentation.py ./target_image.png ./roi.png ./generated_map.png'''
+```python generateMicrocystRepresentation.py ./target_image.png ./roi.png ./generated_map.png```
 
 Where ./target_image.png is the original OCT image and ./roi.png represents the retinal region of interest to be analyzed by the models. The map will be saved as the third argument, presented here as "./generated_map.png".
 
