@@ -15,7 +15,7 @@ import scipy.ndimage
     image_original =  np.array(Image.open(sys.argv[1]))[:,:,0].astype(float)/255
     image_mask = np.array(Image.open(sys.argv[2]).convert('L')).astype(bool)    
     
-    # FASE 1
+    # STAGE 1
     model = densenet161()
     model.classifier = nn.Linear(model.classifier.in_features, 2)
     model.load_state_dict(torch.load('model_64.pt',map_location=torch.device('cpu')))
@@ -28,7 +28,7 @@ import scipy.ndimage
     del model
     torch.cuda.empty_cache()
     
-    # FASE 2
+    # STAGE 2
     model = densenet161()
     model.classifier = nn.Linear(model.classifier.in_features, 2)
     model.load_state_dict(torch.load('model_30.pt',map_location=torch.device('cpu')))

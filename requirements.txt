@@ -1,0 +1,7 @@
+numpy==1.16.0
+matplotlib==3.4
+scipy==1.7.3
+sklearn==1.0
+scikit-image==0.18.3
+torch==1.10.1
+torchivision==0.11

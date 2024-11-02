@@ -1,1 +1,0 @@
-{"experiment_name": "Minicist_V1.6", "model_name": "densenet161", "batch_size": 16, "num_workers": 8, "stopping_patience": 25, "scheduler_patience": 10, "scheduler_factor": 0.66, "optimizer_lr": 0.01, "pretrained": false}
