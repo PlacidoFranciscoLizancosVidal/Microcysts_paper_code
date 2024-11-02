@@ -39,8 +39,8 @@ This project requires three sets of images:
 - The original OCT images, without any alteration.
 - Binary images, where the microcystic regions are marked in white and the non-relevant regions in black (i.e. binary masks).
 - ROI binary images. Represent the regions of the image from which to extract samples.
-- - In the first stage, this would be the retinal region of interest.
-- - In the second stage, it should be a morphological dilation surrounding the true microcystic patterns.
+  - In the first stage, this would be the retinal region of interest.
+  - In the second stage, it should be a morphological dilation surrounding the true microcystic patterns.
 
 
 In ablation_main.py, the configuration of the dataset can be set as follows:
