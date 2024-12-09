@@ -90,7 +90,7 @@ Where ```./target_image.png``` is the original OCT image and ```./roi.png``` rep
 
 To enhance reproducibility, the following resources have been archived using Zenodo for persistent access:
 
-https://doi.org/10.5281/zenodo.14006681
+https://zenodo.org/records/14030370
 
 ## 4. Usage Disclaimer and Citation
 
