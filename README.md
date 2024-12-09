@@ -2,7 +2,7 @@
 
 Source Code of the paper: 
 
-```P. L. Vidal, J. de Moura, J. Novo, M. Ortega, "Multi-stage learning for the intuitive representation of MME accumulations in OCT images", Journal of Medical and Biological Engineering, 2024 (pending acceptance)..```
+```P. L. Vidal, J. de Moura, J. Novo, M. Ortega, "Multi-stage learning for the intuitive representation of MME accumulations in OCT images", Journal of Medical and Biological Engineering, 2024 (pending acceptance).```
 
 ## 1. Installation Guide
 
