@@ -2,7 +2,7 @@
 
 Source Code of the paper: 
 
-```P. L. Vidal, J. de Moura, J. Novo, M. Ortega, "Multi-stage learning for the intuitive representation of MME accumulations in OCT images", Journal of Medical and Biological Engineering, 2024 (pending acceptance).```
+```Vidal, P., de Moura, J., Novo, J. et al. Multi-Stage Learning for Intuitive Visualization of Microcystic Macular Edema in OCT Images. J. Med. Biol. Eng. (2025). https://doi.org/10.1007/s40846-025-00930-x```
 
 ## 1. Installation Guide
 
