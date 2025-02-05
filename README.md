@@ -96,5 +96,5 @@ https://zenodo.org/records/14030370
 
 This code is provided as-is, intended for statistical purposes only and no private data or fees are required. If you use this code set in your work, please include the following reference:
 
-```P. L. Vidal, J. de Moura, J. Novo, M. Ortega, "Robust fully-automatic multi-stage learning for the intuitive representation of MME accumulations in OCT images", The Visual Computer, 2024 (pending acceptance).```
+```Vidal, P., de Moura, J., Novo, J. et al. Multi-Stage Learning for Intuitive Visualization of Microcystic Macular Edema in OCT Images. J. Med. Biol. Eng. (2025). https://doi.org/10.1007/s40846-025-00930-x```
 
